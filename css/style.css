@@ -1,10 +1,10 @@
 /* reset  */
 
 * { margin: 0px;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid red;
+    padding: 1px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  /* border: 1px solid red; */
 
 }
 
@@ -36,8 +36,9 @@ header img {
 
 header h1 {
   display: inline;
-  font-size: 35px;
-  
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* main  */
@@ -64,18 +65,19 @@ main div {
 .toolbar input {
 
   border-radius: 5px;
-  padding: 3px 8px;
+  padding: 4px 10px;
   font-weight: bold;
-  font-size: 12px;
-  border-color: darkgrey;
+  font-size: 9px;
+  border-width: 1px;
 }
 
-.back-color-blu {
+.button-blu {
   background-color: rgb(92, 179, 250);
+  border-color: rgb(92, 179, 250);
   color: white;
 }
 
-.back-color-white {
+.button-white {
   background-color: white;
   color: grey;
 }
@@ -89,7 +91,7 @@ padding-bottom: 30px;
   padding-left: 0px;
   padding-right: 40px;
   margin-top: 30px;
-  font-weight: bold;
+  font-weight:400;
 }
 
 .task-menu h2::before {
@@ -102,11 +104,12 @@ padding-bottom: 30px;
 
 .task-menu p {
   margin-top: 10px;
+
 }
 
 .task-menu span {
   border-radius: 10px;
-  padding: 5px;
+  padding: 5px 10px;
   font-size: 10px;
   color: white;
 }
@@ -138,7 +141,7 @@ padding-bottom: 30px;
   background-color: rgb(205, 92, 250);
 }
 .recurting {
-  background-color: rgb(92, 250, 139);
+  background-color: rgb(70, 185, 105);
 }
 .mobile {
   background-color: rgb(250, 195, 92);
@@ -147,7 +150,6 @@ padding-bottom: 30px;
   background-color: rgb(250, 92, 158);
 }
 .sales {
-  background-color: rgb(195, 250, 92);
+  background-color: rgb(151, 185, 86);
 }
 
-&#9660 triangolo
