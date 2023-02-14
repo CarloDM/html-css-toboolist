@@ -28,15 +28,15 @@ header {
 }
 
 header img {
-  width: 50px;
+  /* width: 50px; */
   vertical-align: middle;
   /* text-align: center;
   line-height: 50px; */
 }
 
 header h1 {
-  display: inline-block;
-  font-size: 25px;
+  display: inline;
+  font-size: 35px;
   
 }
 
@@ -58,6 +58,7 @@ main div {
   padding-top: 8px;
   padding-bottom: 8px;
   border-radius: 5px;
+  margin-bottom: 1px;
 }
 
 .toolbar input {
@@ -79,19 +80,74 @@ main div {
   color: grey;
 }
 
+.task-menu {
+padding-bottom: 30px;
+
+}
 
 .task-menu div {
   padding-left: 0px;
+  padding-right: 40px;
   margin-top: 30px;
   font-weight: bold;
+}
+
+.task-menu h2::before {
+
+  content: "\25BC" ;
+  font-size: 15px;
+  padding-right: 2px;
+
 }
 
 .task-menu p {
   margin-top: 10px;
 }
+
 .task-menu span {
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 5px;
   font-size: 10px;
   color: white;
 }
+
+.complete::before {
+  content: "\2713" ;
+  font-size: 8px;
+  vertical-align: middle;
+  color: green;
+  border: solid 1px green;
+  border-radius: 50%;
+  padding: 2px 4px;
+}
+
+.incomplete::before {
+  content: "\2715" ;
+  font-size: 8px;
+  vertical-align: middle;
+  color: red;
+  border: solid 1px red;
+  border-radius: 50%;
+  padding: 2px 4px;
+}
+
+.editorial {
+  background-color: rgb(92, 179, 250);
+}
+.q1-goals {
+  background-color: rgb(205, 92, 250);
+}
+.recurting {
+  background-color: rgb(92, 250, 139);
+}
+.mobile {
+  background-color: rgb(250, 195, 92);
+}
+.website {
+  background-color: rgb(250, 92, 158);
+}
+.sales {
+  background-color: rgb(195, 250, 92);
+}
+
+&#9660 triangolo
