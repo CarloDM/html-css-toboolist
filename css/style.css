@@ -29,3 +29,41 @@ header h1 {
   font-size: 25px;
   
 }
+
+/* main  */
+
+main {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+main div {
+  padding-left: 40px;
+}
+
+.toolbar {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.toolbar input {
+
+  border-radius: 5px;
+  padding: 3px 8px;
+  font-weight: bold;
+  font-size: 12px;
+  border-color: darkgrey;
+}
+
+.back-color-blu {
+  background-color: rgb(92, 179, 250);
+  color: white;
+}
+
+.back-color-white {
+  background-color: white;
+  color: grey;
+}
+
