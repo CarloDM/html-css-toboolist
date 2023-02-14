@@ -12,6 +12,10 @@ body {
   background-color: rgb(218, 218, 218);
 }
 
+.container {
+  
+}
+
 
 /* generali */
 
@@ -48,7 +52,6 @@ main {
   margin: auto;
   margin-top: 30px;
   margin-bottom: 10px;
-
 }
 
 main div {
@@ -83,8 +86,8 @@ main div {
 }
 
 .task-menu {
-padding-bottom: 30px;
-
+  padding-bottom: 30px;
+  border-radius: 5px;
 }
 
 .task-menu div {
@@ -99,12 +102,11 @@ padding-bottom: 30px;
   content: "\25BC" ;
   font-size: 15px;
   padding-right: 2px;
-
+  margin-right: 5px;
 }
 
 .task-menu p {
   margin-top: 10px;
-
 }
 
 .task-menu span {
